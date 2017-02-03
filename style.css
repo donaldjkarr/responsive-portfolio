@@ -11,7 +11,7 @@ body {
 	width: 960px;
 	position: absolute;
 	margin-top: 20px;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 }
 
 #navname {
@@ -236,4 +236,228 @@ input[type=submit]:hover {
 	margin-bottom: 5px;
 	text-align: center;
 	color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+	body {
+		width: 980px;
+		margin: 0 auto;
+	}
+
+	.mainsection {
+		height: auto;
+	}
+
+	#photo {
+		width: 350px;
+		height: 300px;
+		background-image: cover;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	#hangman {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rpg {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#trivia {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rutgers {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rockpaperscissors {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		width: 768px;
+		margin: 0 auto;
+	}
+
+	.connect {
+		float: left;
+		width: 100%;
+		margin: 10px 10px 30px 10px;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 24px;
+	}
+
+	h2 {
+		margin-left: 80px;
+	}
+
+	#linkdn {
+		margin-left: 80px;
+	}
+
+	#line {
+		width: 95%
+	}
+
+	.mainsection {
+		height: auto;
+	}
+
+	#photo {
+		width: 300px;
+		height: 250px;
+		background-image: cover;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	#hangman {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rpg {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#trivia {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rutgers {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rockpaperscissors {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	
+	body {
+		margin: 0 auto;
+		width: 640px;
+		height: 100%;
+	}
+
+	#nav {
+		margin: 0 auto;
+	}
+
+	#navname {
+		width: 78%;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	#links {
+		float: left;
+		margin: 0;
+		background-color: #fff;
+		width: 80%;
+		text-align: center;
+	}
+
+	.mainsection {
+		height: auto;
+		width: 100%;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.connect {
+		width: 100%;
+		margin-left: 90px;
+
+	}
+
+	h2 {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	#hangman {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rpg {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#trivia {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rutgers {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	#rockpaperscissors {
+		float: left;
+		width: 70%;
+		height: 180px;
+		margin-left: 90px;
+	}
+
+	footer {
+		margin-left: 50px;
+	}
 }
